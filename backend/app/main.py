@@ -11,7 +11,7 @@ application.config['MYSQL_USER'] = config('MYSQL_USER')
 application.config['MYSQL_PASSWORD'] = config('MYSQL_PASSWORD')
 application.config['MYSQL_DB'] = config('MYSQL_DB')
 mysql = MySQL(application)
-SHE_FUNDS_TABLE = 'sheFunds'
+ART_VERSE_TABLE = 'ArtVerse'
 @application.route('/get-user-posts', methods=['POST'])
 def get_user_posts():
     try:
@@ -19,7 +19,7 @@ def get_user_posts():
         publicKey = data['publicKey']
         cur = mysql.connection.cursor()
         cur.execute(
-            f'''SELECT * FROM {SHE_FUNDS_TABLE} WHERE publicKey = "{publicKey}"''')
+            f'''SELECT * FROM {ART_VERSE_TABLE} WHERE publicKey = "{publicKey}"''')
         posts = cur.fetchall()
         responseJson = {}
         postFound = []
@@ -54,7 +54,7 @@ def submit_post():
 
             cur = mysql.connection.cursor()
             cur.execute(
-                f'''INSERT INTO {SHE_FUNDS_TABLE}  VALUES ("{postHashHex}", "{publicKey}",{timestampNanos})''')
+                f'''INSERT INTO {ART_VERSE_TABLE}  VALUES ("{postHashHex}", "{publicKey}",{timestampNanos})''')
             mysql.connection.commit()
 
             return jsonify({'success': 'Post submitted successfully'})
