@@ -38,9 +38,15 @@
 }
 
 .gradient {
-  background: linear-gradient(90deg, #34e463, #312f31 100%);
+  background: linear-gradient(180deg,#000703, #312f31 , #34e463,#312f31,#000703 100%);
 }
 
+.gradientwhite {
+  background: linear-gradient(180deg, #bebbbe , #748479, 100%);
+}
+.paragradient {
+  background: linear-gradient(90deg, #0a0b0a, #312f31 100%);
+}
 .primaryColor{
  background-color: #0d802b;
 }
@@ -48,10 +54,14 @@
   background-color: #011006;
 }
 .primaryTextColor{
- color: #000703;
+ color: #f5f9f7;
 }
 
-
+.right-side{
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
 .colorText{
-  color: #054f11;
+  color: #239e38;
 }

@@ -90,13 +90,13 @@ const TextEditor = ({
   return (
     <>
       {/* Title Element */}
-      <div className='flex flex-col mt-6'>
+      <div className='flex flex-col mt-6 '>
         <textarea
           name='title'
           id='blogTitle'
           className='resize-none w-full rounded-md p-2 text-2xl font-bold bg-white text-gray-800 focus:outline-none border '
           rows='1'
-          placeholder='Project or idea title...'
+          placeholder='Art Name...'
           value={titleText}
           onChange={onTitleChange}
           ref={titleTextArea}></textarea>
@@ -114,7 +114,7 @@ const TextEditor = ({
         <textarea
           className='resize-none w-full  p-2 rounded-b-lg text-lg min-h-24 no-ring bg-white text-gray-800 focus:outline-none border'
           rows='10'
-          placeholder='Write your Project or Idea description'
+          placeholder='Write about your Art or Describe its Features...'
           value={bodyText}
           onChange={onBodyChange}
           ref={bodyTextArea}></textarea>

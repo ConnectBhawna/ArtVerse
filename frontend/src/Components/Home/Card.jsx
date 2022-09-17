@@ -30,7 +30,7 @@ export default function Card({ postHashHex }) {
 
     
       <div
-        className={` my-4 w-full mx-6 md:w-1/2 lg:w-1/3   rounded-md overflow-hidden shadow-lg text-black cursor-pointer hover:scale-105 duration-75`}
+        className={` my-4 w-full mx-6 md:w-1/2 lg:w-1/3   rounded-md overflow-hidden bg-white shadow-md text-black cursor-pointer hover:scale-105 duration-75`}
         onClick={() => {
           window.location.href = `/post/${postHashHex}`;
         }}>
@@ -40,6 +40,7 @@ export default function Card({ postHashHex }) {
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
+            backgroundColor:"white",
             height: "300px",
             width: "100%",
           }}></div>

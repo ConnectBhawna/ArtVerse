@@ -26,11 +26,11 @@ export default function Home() {
   return (
     <div>
       <NavBar pitchDesk={false} create={true} />
-      <div className='pt-24 '>
+      <div className='pt-24 gradient'>
         {loading && <Loader />}
-        <div className='container mx-auto'>
+        <div className='container mx-auto gradient1'>
           {loadSuccess && (
-            <h1 className='text-center text-3xl my-4'>Top Pitches</h1>
+            <h1 className='text-center text-3xl my-4'>Top Arts of this Weekand</h1>
           )}
           {loadSuccess &&
             postsFound.map((post, index) => {

@@ -43,7 +43,7 @@ export default function NavBar({ pitchDesk, create }) {
   };
 
   return (
-    <nav className='w-full  shadow-md fixed gradient border-b' style={{
+    <nav className='w-full  shadow-md fixed paragradient border-b' style={{
       zIndex: 1000
     }}>
       <div className='justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8'>
@@ -52,7 +52,7 @@ export default function NavBar({ pitchDesk, create }) {
             <div className='flex items-center space-x-1'>
               <div className="h-14"></div>
               <a href='/'>
-                <h2 className='text-3xl font-bold '>ArtVerse</h2>
+                <h2 className='text-3xl text-white font-bold '>ArtVerse</h2>
               </a>
             </div>
             <div className='md:hidden'>

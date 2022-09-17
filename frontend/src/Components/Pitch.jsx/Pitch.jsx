@@ -19,7 +19,7 @@ export default function Create() {
   const [coverImageURL, setCoverImageURL] = useState("");
   const [fundraisingAmt, setFundraisingAmt] = useState(0);
   const [showModal, setShowModal] = useState(false);
-  const [modalHeader, setModalHeader] = useState("");
+  const [modalHeader, setModalHeader] = useState("First post title");
   const [modalBody, setModalBody] = useState("");
   const [postHashHex, setPostHashHex] = useState(null);
   useEffect(async () => {
@@ -56,21 +56,21 @@ export default function Create() {
     //check if title text is not empty
     if (titleText === "") {
       setModalHeader("Error");
-      setModalBody("Please Enter your project or idea title");
+      setModalBody("Please Enter your Art or Art title");
       setShowModal(true);
       return;
     }
     //check if body text is not empty
     if (bodyText === "") {
       setModalHeader("Error");
-      setModalBody("Please Enter your project description");
+      setModalBody("Please Enter your art description");
       setShowModal(true);
       return;
     }
     //check if cover image is not empty
     if (coverImageURL === "") {
       setModalHeader("Error");
-      setModalBody("Please upload a cover image");
+      setModalBody("Please upload your art image");
       setShowModal(true);
       return;
     }
@@ -95,7 +95,7 @@ export default function Create() {
       },
       PostExtraData: {
         body: bodyText,
-        App: "SheFunds",
+        App: "ArtVerse",
         FundraisingGoal: fundraisingAmt.toString(),
       },
     };
@@ -129,7 +129,7 @@ export default function Create() {
       }
 
       //navigate(`/post/${createdPostHashHex}`);
-      setModalBody("Fund Raising Pitch Successfully created!");
+      setModalBody("Fund Raising Art NFT Successfully created!");
       setModalHeader("Success!");
       setShowModal(true);
       //will redirect to the published post
@@ -152,7 +152,7 @@ export default function Create() {
   return (
     <>
       <NavBar pitchDesk={false} create={false} />
-      <div className='pt-24'>
+      <div className='pt-24 gradient'>
         <div className='mt-2 w-screen md:w-4/5 m-auto px-2 md:px-8 mb-6'>
           <TopBtnBar
             isPosting={isPosting}
@@ -184,7 +184,7 @@ export default function Create() {
           />
           <form>
             <div className=' mt-4'>
-              <label className={` inline-block mb-2 text-sm font-medium `}>
+              <label className={` text-white inline-block mb-2 text-sm font-medium `}>
                 Fundraising Goal (in $DESO. 1 $DESO ~ 6$){" "}
                 <img
                   src={desoLogo}
@@ -213,7 +213,7 @@ export default function Create() {
 
           <div className='flex justify-center'>
             <button
-              className={`p-2 hover:text-white border border-[#ef476f] hover:bg-[#d33e60] focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 `}
+              className={`p-2 text-white hover:text-white border border-[#0b824b] hover:bg-[#04552a] focus:ring-4 focus:outline-none focus:ring-green-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 `}
               onClick={() => {
                 onPublishBtnClicked();
               }}>
@@ -258,7 +258,7 @@ export default function Create() {
               </div>
             </div>
           </div>
-          <div className='opacity-25 fixed inset-0 z-40 bg-black'></div>
+          <div className='opacity-35 fixed inset-0 z-40 bg-black'></div>
         </>
       )}
     </>
