@@ -1,3 +1,5 @@
+![Contentgif](https://user-images.githubusercontent.com/81790585/190892772-67b03e7a-40f0-4eea-9c59-8b9dfb6448d6.gif)
+
 ## 💡Inspiration
 As, Being an artist and creating videos on youtube and Instagram, and other apps. I don't even receive any money except for selling my art to others. So I came up with the idea of ArtVerse where I am earning just by posting my art. In ArtVerse, I am connecting artists, creators, and investors in one place, also in a decentralized manner where Artist art is not art, it is a digital decentralized Art like never before. there is no decentralized platform that connects artists, users, and Investors.
 
