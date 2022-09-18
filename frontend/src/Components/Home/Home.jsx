@@ -30,7 +30,7 @@ export default function Home() {
         {loading && <Loader />}
         <div className='container mx-auto gradient1'>
           {loadSuccess && (
-            <h1 className='text-center text-3xl my-4'>Top Arts of this Weekand</h1>
+            <h1 className='text-center text-white text-3xl my-4'>Top Arts of this Weekand</h1>
           )}
           {loadSuccess &&
             postsFound.map((post, index) => {

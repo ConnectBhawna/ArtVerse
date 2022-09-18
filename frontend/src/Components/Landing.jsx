@@ -50,28 +50,28 @@ function Landing(props) {
           </p>
           <div className='mx-auto flex flex-wrap my-4  w-full  px-4 sm:px-44 lg:px-72 justify-center'>
             <div className=' items-center flex justify-center flex-col   p-4 '>
-              <div className='border bg-blue-50 w-[16rem] h-[8rem] border-blue-600 px-8 py-6 rounded-xl  text-center text-lg'>
+              <div className='border bg-green-50 w-[16rem] h-[8rem] border-green-600 px-8 py-6 rounded-xl  text-center text-lg'>
                 Earn Revenue through your Art as an Artist by social tipping and NFT sales
               </div>
             </div>
             <div className=' items-center flex justify-center flex-col   p-4 '>
-              <div className='border bg-blue-50 w-[16rem] h-[8rem] border-blue-600 px-8 py-6 rounded-xl  text-center text-lg'>
+              <div className='border bg-green-50 w-[16rem] h-[8rem] border-green-600 px-8 py-6 rounded-xl  text-center text-lg'>
                 No Ads and annoying PopUps as such web2 thing
               </div>
             </div>
             <div className=' items-center flex justify-center  flex-col  p-4 '>
-              <div className='border bg-blue-50 w-[16rem] h-[8rem] border-blue-600 px-8 py-6 rounded-xl  text-center text-lg'>
+              <div className='border bg-green-50 w-[16rem] h-[8rem] border-green-600 px-8 py-6 rounded-xl  text-center text-lg'>
                 Get help from other community members
               </div>
             </div>
             <div className=' items-center flex justify-center flex-col   p-4 '>
-              <div className='border bg-blue-50 w-[16rem] h-[8rem] border-blue-600 px-8 py-6 rounded-xl  text-center text-lg'>
+              <div className='border bg-green-50 w-[16rem] h-[8rem] border-green-600 px-8 py-6 rounded-xl  text-center text-lg'>
                 Be the Owner not the product
               </div>
             </div>
             <div className=' items-center flex justify-center flex-col   p-4 '>
-              <div className='border bg-blue-50 w-[16rem] h-[8rem] border-blue-600 px-8 py-6 rounded-xl  text-center text-lg'>
-                Support people who are having mental breakdown
+              <div className='border bg-green-50 w-[16rem] h-[8rem] border-green-600 px-8 py-6 rounded-xl  text-center text-lg'>
+                Support artists using funding the ideas
               </div>
             </div>
 
