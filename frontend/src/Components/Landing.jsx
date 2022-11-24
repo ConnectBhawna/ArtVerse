@@ -3,14 +3,17 @@ import NavBar from "./Navbar";
 import { Link } from "react-router-dom";
 function Landing(props) {
   
- 
+ // flex is used to set the flexible length of the item
+ // px =0 means padding left and right is 0px
+ // py =0 means padding top and bottom is 0px
+ // my =0 means margin top and bottom is 0px
   return (
     <div gradient>
       <NavBar 
       pitchDesk= {true}
         create= {false}
       />
-      <div className='pt-28 gradient'>
+      <div className='pt-28 gradient'>      
         <div className='flex centre flex-col items-center my-6'>
             <div className=' text-lg px-10 py-8 gradient rounded-md border border-green-200'>
               {" "}
