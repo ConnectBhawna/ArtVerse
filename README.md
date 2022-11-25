@@ -28,3 +28,5 @@ Learned more about Deso. Learned a lot more about Tailwind CSS and responsive de
 - Scaling to hundreds of thousands of users and UX improvements!
 - Making the code Open Source and engaging different People.
 
+[Video Link](https://www.youtube.com/watch?v=6nc6kmLGl60)
+[Presentation Link](https://www.canva.com/design/DAFSY_ApFLo/ZhVM667ex0E_uBgD9rnpxw/view?utm_content=DAFSY_ApFLo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
