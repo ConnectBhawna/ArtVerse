@@ -2,19 +2,12 @@ import { useState } from "react";
 import logo from "../../src/logo.svg";
 import { Gradient} from "react-gradient";
 import { Link } from "react-router-dom";
-// importing usestate hook in Navbar
 import { useEffect } from "react";
-// for fetching data from backend Deso API WE DOWNLOADED deso protocol package
 import Deso from "deso-protocol";
-// a keyword that define deso variable that is unchangeable
 const deso = new Deso();
 
-// when the user is not logged in in deso so default status
 export default function NavBar({ pitchDesk, create }) {
 
-  // hook are the function allows to state adn lifecycle mechanism in functional components
-  // useState is a hook that is used to control the state of our application.
-  //here navbar is a variable whereas setNavbar is a function that is used to change the value of navbar
   const [navbar, setNavbar] = useState(false);
   const [hasLoggedIn, setHasLoggedIn] = useState(false);
   const [publicKey, setPublicKey] = useState("");
@@ -30,8 +23,7 @@ export default function NavBar({ pitchDesk, create }) {
     }
     setLoadingLoginStatus(false);
   }, []);
-  // it is the firt function that runs
-  // it is used to perform side effects in your components.Like side effects
+
   useEffect(() => {
     const handleShadow = () => {
       if (window.scrollY >= 90) {
@@ -43,16 +35,10 @@ export default function NavBar({ pitchDesk, create }) {
     window.addEventListener('scroll', handleShadow);
   }, []);
 
-  // this function is async
   const handleDesoLogin = async () => {
-    // this function is used to login in deso
-    // when you call a promise,you handle the next sttep in a then call
-    // the await keyword is used to wait for a promise
-    // once the promise is resolved it returns the parameter passed into the then call
     const response = await deso.identity.login(4);
     if (response.key) {
       localStorage.setItem("loggedInKey", response.key);
-      //reloading page cuz i am lazy to add cases to make it work without load as SPA
       window.location.reload();
     }
   };
