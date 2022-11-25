@@ -30,7 +30,7 @@ export default function NavBar({ pitchDesk, create }) {
     }
     setLoadingLoginStatus(false);
   }, []);
-
+  // it is the firt function that runs
   // it is used to perform side effects in your components.Like side effects
   useEffect(() => {
     const handleShadow = () => {
