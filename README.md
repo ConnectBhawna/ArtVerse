@@ -1,5 +1,43 @@
-![Contentgif](https://user-images.githubusercontent.com/81790585/190892772-67b03e7a-40f0-4eea-9c59-8b9dfb6448d6.gif)
+ 
+  <a id="about"> </a>
 
+# ArtVerse 🌟
+
+A platform where Artists can put up their arts as NFT.These NFTs can then be traded and each time an NFT gets traded, here Artists can pitch their idea and earn money from their idea as well! The main essence of the platform is to uplift Artists as they really do not get enough recognition and monetary benefits or royalties from the currently available sources.
+<br>
+
+
+<p  align="center">
+<img  src="https://user-images.githubusercontent.com/81790585/190892772-67b03e7a-40f0-4eea-9c59-8b9dfb6448d6.gif"/>
+</p>
+
+------------------------------Start Exploring ArtVerse-----------------------------
+- <a href="https://www.youtube.com/watch?v=6nc6kmLGl60" target="_blank">Demo</a>
+
+- [Inspiration](#about)
+
+- [Features and Interfaces](#features)
+  - [Home](#home)
+  - [Login Deso](#auth)
+  - [Add Art](#dashboard)
+  - [Art NFT](#exam)
+  - [Raise Fund](#face)
+
+- [Tech Stack](#tech-stack)
+  - [Front-end](#frontend)
+  - [Backend](#backend)
+  - [Other Tools](#other)
+
+- [Important Points](#imp-points)
+- [Getting Started Instructions](#instructions)
+- [Problem Faced](#problems)
+- [Links](#links)
+- [Contact](#contact)
+
+  
+  
+
+ <a id="about"> </a>
 ## 💡Inspiration
 As, Being an artist and creating videos on youtube and Instagram, and other apps. I don't even receive any money except for selling my art to others. So I came up with the idea of ArtVerse where I am earning just by posting my art. In ArtVerse, I am connecting artists, creators, and investors in one place, also in a decentralized manner where Artist art is not art, it is a digital decentralized Art like never before. there is no decentralized platform that connects artists, users, and Investors.
 
