@@ -135,7 +135,7 @@ As, Being an artist and creating videos on youtube and Instagram, and other apps
   
 
 <a id="imp-points"> </a>
-## Points to remember while testing the app
+## Points to remember while downloading the Dapp
 
   
 
@@ -190,7 +190,7 @@ Learned more about Deso. Learned a lot more about Tailwind CSS and responsive de
 
   
 
-Feel free to contact me on [Twitter](https://twitter.com/Bhawna1203/) or [LinkedIn](https://www.linkedin.com/in/bhawna-chauhan-00a32a200/), know more about me at [bhawma.tech](https://linktr.ee/bhawna1203)
+Feel free to contact me on [Twitter](https://twitter.com/Bhawna1203/) or [LinkedIn](https://www.linkedin.com/in/bhawna-chauhan-00a32a200/), know more about me at [bhawna.tech](https://linktr.ee/bhawna1203)
 
   
 
