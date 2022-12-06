@@ -1,4 +1,4 @@
- 
+  
   <a id="about"> </a>
 
 # ArtVerse 🌟
@@ -8,20 +8,20 @@ A platform where Artists can put up their arts as NFT.These NFTs can then be tra
 
 
 <p  align="center">
-<img  src="https://user-images.githubusercontent.com/81790585/190892772-67b03e7a-40f0-4eea-9c59-8b9dfb6448d6.gif"/>
+<img width="500px" src="https://user-images.githubusercontent.com/81790585/190892772-67b03e7a-40f0-4eea-9c59-8b9dfb6448d6.gif"/>
 </p>
 
-------------------------------Start Exploring ArtVerse-----------------------------
-- <a href="https://www.youtube.com/watch?v=6nc6kmLGl60" target="_blank">Demo</a>
 
-- [Inspiration](#about)
+- <a href="https://www.youtube.com/watch?v=6nc6kmLGl60 " target="_blank" >Demo</a>
+
+- [About Project](#about)
 
 - [Features and Interfaces](#features)
   - [Home](#home)
-  - [Login Deso](#auth)
-  - [Add Art](#dashboard)
-  - [Art NFT](#exam)
-  - [Raise Fund](#face)
+  - [Login and Authentication](#auth)
+  - [Add Art on Blockchain](#add-art)
+  - [Minted NFT](#mint-nft)
+  - [Pitch Art](#pitch)
 
 - [Tech Stack](#tech-stack)
   - [Front-end](#frontend)
@@ -30,41 +30,167 @@ A platform where Artists can put up their arts as NFT.These NFTs can then be tra
 
 - [Important Points](#imp-points)
 - [Getting Started Instructions](#instructions)
-- [Problem Faced](#problems)
+- [What We Learned](#what-we-learned)
 - [Links](#links)
 - [Contact](#contact)
 
   
   
+  
+  <a id="features"> </a>
 
- <a id="about"> </a>
-## 💡Inspiration
+## Features and Interfaces
+
 As, Being an artist and creating videos on youtube and Instagram, and other apps. I don't even receive any money except for selling my art to others. So I came up with the idea of ArtVerse where I am earning just by posting my art. In ArtVerse, I am connecting artists, creators, and investors in one place, also in a decentralized manner where Artist art is not art, it is a digital decentralized Art like never before. there is no decentralized platform that connects artists, users, and Investors.
 
-## ⚙ What it does
-ArtVerse is a decentralized platform where ARTISTS can put up ARTS as NFTs. These NFTs can then be traded and each time an NFT gets traded, here Artists can pitch their idea and earn money from their idea as well! The main essence of the platform is to uplift Artists as they really do not get enough recognition and monetary benefits or royalties from the currently available sources.
+1. Home Page   <a id="home"> </a>
 
-## 🛠 How we built it
-- For building Frontend, we use React JS and TailwindCss
-- Used Flask as a backend to store all the content and updated it in real-time.
-- Used different libraries like DesoPy, DesoJS
-The blockchain we use for decentralization is Deso
+   - [Landing Page](https://frabjous-boba-107cb3.netlify.app/) which lists all the features of the app
+  
+   <img width="1835" alt="Screenshot from 2022-12-06 19-25-52" src="https://user-images.githubusercontent.com/81790585/205931123-9ad0ba7c-4bb7-4261-aa72-04edcefb17fe.png">
+ <br>
+   <img width="1835" alt="Screenshot from 2022-12-06 19-28-28" src="https://user-images.githubusercontent.com/81790585/205931884-ea1a7ae4-b03a-4e98-8c5a-87112b8c388a.png" >
 
-## 💪 Challenges we ran into
-- It is my first time building a decentralized Dapp on Deso all alone working on the backend, frontend, and Smart Contract. 
-- It was hard to make a fully responsive and beautiful UI of ArtVerse.
+ 
+ 2.  Login Page (Authentication)  <a id="auth"> </a>
+ 
+     - Fast and secure authentication 
+     - Deso Blockchain for authentication with Deso Account.
 
-## 📌 Accomplishments that we're proud of
-- Well, we built a whole social platform in 16 hours!! That's the biggest achievement of this hackathon.
-- Able to build the app on Deso that really solves the issue.
-- Ourself for trying our best.
+     <img width="1835" alt="Screenshot from 2022-12-06 19-32-31" src="https://user-images.githubusercontent.com/81790585/205932670-1b7f13bf-340c-4556-b015-c8976b1d7e63.png">
+  
+2. Add Art on Blockchain <a id="add-art"> </a>
 
-## 📚 What we learned
+	- Here user need to fill the details about the ART, that he/she want to Mint as NFT
+
+	- That ART will mint as NFT on DESO BLOCKCHAIN
+
+    <img width="1835" alt="Screenshot from 2022-12-06 19-37-31" src="https://user-images.githubusercontent.com/81790585/205934203-61f7f65f-4845-42fe-8ca3-202c4955f81e.png" >
+
+  
+  
+3. Minted NFT <a id="mint-nft"> </a>
+
+   - On clicking on submiting button the user receive the popUp that NFT is created
+
+   - The NFT is visible on Diamond App and now you can trade your Art as NFT.
+  
+
+   <img width="1835" alt="Screenshot from 2022-12-06 19-41-15" src="https://user-images.githubusercontent.com/81790585/205935573-2e492ca9-d194-4976-b836-207c02c56f25.png">
+
+   <img width="1801" alt="Screenshot from 2022-12-06 19-44-22" src="https://user-images.githubusercontent.com/81790585/205935644-f061c9f5-eb3b-4b31-932e-58fb65fe33e0.png">
+
+  
+  
+  
+4. Pitch ART <a id="pitch"> </a>
+
+   - Here on clicking on View-Pitch user able to view the details of the Art that we added.
+
+   - In ArtVerse ARTISTS can put up ARTS as NFTs. 
+
+   - These NFTs can then be traded and each time an NFT gets traded, here Artists can pitch their idea and earn money from their idea as well!
+
+   - The main essence of the platform is to uplift Artists as they really do not get enough recognition and monetary benefits or royalties from the currently available sources.
+   
+   - The Art writer or creator can't FundRaise Own post
+
+
+
+ <img width="1801" alt="Screenshot from 2022-12-06 19-52-05" src="https://user-images.githubusercontent.com/81790585/205937277-8953182b-6bb6-478d-8945-23ebad486207.png">
+
+<br>
+<img width="1801" alt="Screenshot from 2022-12-06 19-52-41" src="https://user-images.githubusercontent.com/81790585/205937671-da5810c0-af80-48ae-b9a3-ce3509207e30.png">
+
+  
+  
+ 
+
+## Tech stack
+
+  
+  <a id="frontend"> </a>
+#### Frontend
+
+- React.js
+- JavaScript
+- TailwindCss
+
+  
+  
+<a id="backend"> </a>
+#### Backend
+
+- Flask to store all the content and updated it in real time
+- Deso Blockchain
+- Different Libraries like DesoPy, DesoJS
+
+
+<a id="other"> </a>
+#### Other Tools
+
+- CANVA (For creating Video)
+- FIGMA (For designing Assets)
+
+  
+
+<a id="imp-points"> </a>
+## Points to remember while testing the app
+
+  
+
+1. First setup the backend by following the instructions in this [repository](https://github.com/Bhawna1203/ArtVerse)
+
+2. Create the Deso account before login into ArtVerse.
+
+
+  
+
+<a id="instructions"> </a>
+## Instructions
+
+  
+  
+
+1. Clone the project
+
+   -  `https://github.com/Bhawna1203/ArtVerse/frontend`
+
+3. Install all the packages
+
+   -  `npm install`
+
+4. Run the app
+
+   -  `npm run dev`
+
+5. Open `http://localhost:3000` with your browser to see the app
+
+
+## What We Learned <a  id="what-we-learned">  </a>
+
+
 Learned more about Deso. Learned a lot more about Tailwind CSS and responsive designs.
+  
+ 
+<a id="links"> </a>
+## Useful Links
 
-## 📚 What's next for ArtVerse
-- Scaling to hundreds of thousands of users and UX improvements!
-- Making the code Open Source and engaging different People.
+  
 
-[Video Link](https://www.youtube.com/watch?v=6nc6kmLGl60)
-[Presentation Link](https://www.canva.com/design/DAFSY_ApFLo/ZhVM667ex0E_uBgD9rnpxw/view?utm_content=DAFSY_ApFLo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [Project Demo](https://www.youtube.com/watch?v=6nc6kmLGl60)
+- [Backend Repository](https://github.com/Bhawna1203/ArtVerse/tree/master/backend)
+
+- [Project Presentation](https://www.canva.com/design/DAFSY_ApFLo/ZhVM667ex0E_uBgD9rnpxw/view?utm_content=DAFSY_ApFLo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+  
+  
+<a id="contact"> </a>
+## Need help?
+
+  
+
+Feel free to contact me on [Twitter](https://twitter.com/Bhawna1203/) or [LinkedIn](https://www.linkedin.com/in/bhawna-chauhan-00a32a200/), know more about me at [bhawma.tech](https://linktr.ee/bhawna1203)
+
+  
+
