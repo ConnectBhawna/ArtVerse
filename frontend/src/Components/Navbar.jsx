@@ -15,7 +15,8 @@ export default function NavBar({ pitchDesk, create }) {
   const [loadingLoginStatus, setLoadingLoginStatus] = useState(true);
   const [showModal, setShowModal] = useState(false);
   const [shadow, setShadow] = useState(false);
-  useEffect(() => {
+  useEffect(() => { // An empty array
+    // Runs only on first Rendering
     const loggedInKey = localStorage.getItem("loggedInKey");
     if (loggedInKey) {
       setHasLoggedIn(true);
