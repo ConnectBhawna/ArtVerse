@@ -8,10 +8,10 @@ function App() {
   return (
    <Router>
     <Routes>
-      <Route path = "/" element = {<Landing/>}/>
-      <Route path = "/home" element = {<Home/>}/>
-      <Route path = "/pitch" element = {<Pitch/>}/>
-      <Route path="/post/:hash" element = {<Post/>}/>
+      <Route exact path = "/" element = {<Landing/>}/>
+      <Route exact path = "/home" element = {<Home/>}/>
+      <Route exact path = "/pitch" element = {<Pitch/>}/>
+      <Route exact path="/post/:hash" element = {<Post/>}/>
     </Routes>
    </Router>
   );
