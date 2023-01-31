@@ -5,7 +5,7 @@ export default function Loader() {
     <div className='text-center'>
       <svg
         role='status'
-        className='my-10 inline mr-2 w-14 h-14 text-gray-200 animate-spin  fill-[#0a5b16]'
+        className='my-10 inline mr-2 w-14 h-14 text-gray-200 animate-spin  fill-[#002105]'
         viewBox='0 0 100 101'
         fill='none'
         xmlns='http://www.w3.org/2000/svg'>

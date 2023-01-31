@@ -121,7 +121,7 @@ export default function NavBar({ pitchDesk, create }) {
                 )}
 
                 {!hasLoggedIn && (
-                  <li className='text-gray-600 hover:text-green-600'>
+                  <li className='text-gray-500 hover:text-green-500'>
                     <button
                       className='px-8 py-2 primaryColor text-white rounded-md shadow-md hover:shadow-xl'
                       onClick={handleDesoLogin}>
@@ -144,7 +144,7 @@ export default function NavBar({ pitchDesk, create }) {
 
                     {dropdown && (
                       <button
-                        className='px-6 py-2  text-white underline hover:text-green-600'
+                        className='px-6 py-2  text-white underline hover:text-green-500'
                         onClick={() => {
                           localStorage.removeItem("loggedInKey");
                           window.location.reload();
@@ -179,7 +179,7 @@ export default function NavBar({ pitchDesk, create }) {
                 </div>
                 {/*body*/}
                 <div className='relative p-6 flex-auto'>
-                  You need to login with Deso Identity to add your arts and activities
+                  You need to login with Deso Identity to add your arts and activities in ArtVerse Project.
                 </div>
                 {/*footer*/}
                 <div className='flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b'>

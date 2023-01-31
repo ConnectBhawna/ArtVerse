@@ -33,7 +33,7 @@ function Landing(props) {
             </h1>
             <p className=' text-center mt-4 text-lg text-gray-800 sm:mt-10 sm:text-2xl primaryTextColor'>
             Add Art, raise funds and bring your creative ideas to life by
-            drawing in public.
+            showing in public.
             </p>
 
             <Link className='text-lg primaryColor animate-bounce text-white mt-16 px-16 py-4 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 duration-100 hover:bg-[#bd3957]' 
@@ -54,7 +54,7 @@ function Landing(props) {
           <div className='mx-auto flex flex-wrap my-4  w-full  px-4 sm:px-44 lg:px-72 justify-center'>
             <div className=' items-center flex justify-center flex-col   p-4 '>
               <div className='border bg-green-50 w-[16rem] h-[8rem] border-green-600 px-8 py-6 rounded-xl  text-center text-lg'>
-                Earn Revenue through your Art as an Artist by social tipping and NFT sales
+                Earn Revenue through your Art as an Artist by social tipping & NFT sales.
               </div>
             </div>
             <div className=' items-center flex justify-center flex-col   p-4 '>
@@ -77,8 +77,7 @@ function Landing(props) {
                 Support artists using funding the ideas
               </div>
             </div>
-
-          
+              
         </div > 
         </div>
       </div>
