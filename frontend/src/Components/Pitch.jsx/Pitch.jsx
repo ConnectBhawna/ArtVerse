@@ -27,8 +27,7 @@ export default function Create() {
     if (publicKey === undefined || publicKey === null) {
       window.location.href = "/home";
     } else {
-      //get public key from local storage
-
+      //here we are getting public key of logged in user
       setLoggedInPublicKey(publicKey);
     }
   }, []);
@@ -49,11 +48,11 @@ export default function Create() {
   };
 
   const onPublishBtnClicked = async () => {
-    // Publish
+    // Publishing the post
     if (isPosting) {
       return;
     }
-    //check if title text is not empty
+    //checking here that the title text is not empty
     if (titleText === "") {
       setModalHeader("Error");
       setModalBody("Please Enter your Art or Art title");
@@ -67,7 +66,7 @@ export default function Create() {
       setShowModal(true);
       return;
     }
-    //check if cover image is not empty
+    //checking the cover page is empty or not  if it is empty then it show Error
     if (coverImageURL === "") {
       setModalHeader("Error");
       setModalBody("Please upload your art image");

@@ -138,8 +138,8 @@ export default function Post() {
     const response = await deso.social.sendDiamonds(request);
     setIsFunding(false);
     if (response) {
-      setModalHeader("Success");
-      setModalBody(`You have successfully funded this post!`);
+      setModalHeader("Enjoy the Success");
+      setModalBody(`You have successfully funded this particular post!`);
       setShowModal(true);
     }
   };
@@ -155,7 +155,7 @@ export default function Post() {
         ) : !wasResponseSuccessful ? (
           <div className='h-screen mx-auto pt-20'>
             <p className={` text-xl text-center pt-10`}>
-              Error while loading post. Please reload page.
+              Error while loading post,reloading is required. Please reload page.
             </p>
           </div>
         ) : (
@@ -229,14 +229,14 @@ export default function Post() {
                     <br />
                     <div className='flex flex-col border rounded-lg shadow-sm'>
                       {isFunding && (
-                        <p className='flex gap-2 text-center justify-center rounded-t-lg p-2 w-96 mx-auto'>
+                        <p className='flex gap-3 text-center justify-center rounded-t-lg p-2 w-96 mx-auto'>
                           {" "}
-                          Funding the pitch...
+                          Start Funding the pitch...
                         </p>
                       )}
                       {!isFunding && (
                         <div
-                          className={`flex gap-2 text-center justify-center rounded-t-lg p-2 w-96 mx-auto`}>
+                          className={`flex gap-3 text-center justify-center rounded-t-lg p-2 w-96 mx-auto`}>
                           <button
                             data-tip
                             data-for='gem'
